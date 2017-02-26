@@ -76,6 +76,8 @@
     <Content Include="app\dashboard.component.html" />
     <Content Include="app\hero-detail.component.css" />
     <Content Include="app\hero-detail.component.html" />
+    <Content Include="app\hero-search.component.css" />
+    <Content Include="app\hero-search.component.html" />
     <Content Include="app\heroes.component.css" />
     <Content Include="app\heroes.component.html" />
     <Content Include="favicon.ico" />
@@ -109,6 +111,8 @@
     <TypeScriptCompile Include="app\app.component.spec.ts" />
     <TypeScriptCompile Include="app\app.component.ts" />
     <TypeScriptCompile Include="app\dashboard.component.ts" />
+    <TypeScriptCompile Include="app\hero-search.component.ts" />
+    <TypeScriptCompile Include="app\hero-search.service.ts" />
     <TypeScriptCompile Include="app\heroes.component.ts" />
     <TypeScriptCompile Include="app\app.module.ts" />
     <TypeScriptCompile Include="app\hero-detail.component.ts" />

@@ -14,21 +14,20 @@ import { HeroDetailComponent } from './hero-detail.component';
 import { HeroesComponent } from './heroes.component';
 import { DashboardComponent } from './dashboard.component';
 import { HeroService } from './hero.service';
-
-
-
+import { HeroSearchComponent } from './hero-search.component';
 
 @NgModule({
     imports: [BrowserModule,
         FormsModule,
         HttpModule,
         InMemoryWebApiModule.forRoot(InMemoryDataService),
-        AppRoutingModule
+        AppRoutingModule,
     ],
     declarations: [AppComponent,
         HeroDetailComponent,
         HeroesComponent,
-        DashboardComponent ],
+        DashboardComponent,
+        HeroSearchComponent],
     bootstrap: [AppComponent],
     providers: [HeroService]
 })
